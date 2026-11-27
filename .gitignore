@@ -1,0 +1,15 @@
+# dependencies
+node_modules/
+# build output
+dist/
+out/
+*.dmg
+*.exe
+*.zip
+# local settings / secrets (app stores these in the OS, never in the repo)
+settings.json
+.env
+.env.*
+# os / editor
+.DS_Store
+*.log
